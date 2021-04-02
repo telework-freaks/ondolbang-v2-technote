@@ -45,5 +45,5 @@ ex)
 ...
 ```
 
-issue 메시지의 제목은 [[commitMessageConvention.md]](https://github.com/mmkser10/ondolbang-v2-technote/blob/main/commitMessageConvention.md)에 기술한 것과 같이 `Add, Update, Refactor` 등의 작업 내용을 의미하는 키워드와 작업내용을 한 문장으로 요약하여 작성합니다. issue 메시지의 내용은 해당 작업의 디테일을 위 예시와 같이 간략히 설명합니다. pull request 메시지의 제목에는 해당 PR이 완료한 작업에 해당하는 issue의 번호를 먼저 쓰고, issue의 제목을 작성합니다. 내용에는 완료한 작업 내용을 간략히 설명합니다. pull request 메시지의 내용 부분에는 해당 작업에서 변경된 사항을 위 예시와 같이 `코드 측면`에서 기술합니다. 최종 merge 이전에 팀원이 해당 PR을 검토하고 이상없음이 확인되면 변경점을 저장소에 merge합니다.
+issue 메시지의 제목은 [[commitMessageConvention.md]](https://github.com/telework-freaks/ondolbang-v2-technote/blob/main/commitMessageConvention.md)에 기술한 것과 같이 `Add, Update, Refactor` 등의 작업 내용을 의미하는 키워드와 작업내용을 한 문장으로 요약하여 작성합니다. issue 메시지의 내용은 해당 작업의 디테일을 위 예시와 같이 간략히 설명합니다. pull request 메시지의 제목에는 해당 PR이 완료한 작업에 해당하는 issue의 번호를 먼저 쓰고, issue의 제목을 작성합니다. 내용에는 완료한 작업 내용을 간략히 설명합니다. pull request 메시지의 내용 부분에는 해당 작업에서 변경된 사항을 위 예시와 같이 `코드 측면`에서 기술합니다. 최종 merge 이전에 팀원이 해당 PR을 검토하고 이상없음이 확인되면 변경점을 저장소에 merge합니다.
 

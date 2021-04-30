@@ -65,31 +65,30 @@ ex)
 
 <issue>
 
-[Add]: DB를 설계한다
+[Add]: 랜딩 페이지에 최근 본 항목 링크 추가
 
 ## 목적
 
-openApi에서 받은 데이터를 저장하기 위해 DB테이블을 생성한다.
+랜딩 페이지에서 최근 본 항목에 대한 정보를 표시하여 이전 이용기록을 확인할수 있도록 함
 
 ## 세부사항
 
-- 어떤 DB를 사용할 것인지 확정되지 않음.
-- 서버에서 구동하는것이 아닌 개인 노트북에 DB를 생성한 후, 서버 구현 시 서버에 맞는 DB를 사용할 예정이다.
-
+- 랜딩 페이지의 메인로고 다음에 위치
+- pc 기준 3 * 3 그리드를 사용
 ...
 
-  
 
 <pull request>
+#1: [Add]: 랜딩 페이지에 최근 본 항목 링크 추가
 
-#2: [Add]: DB를 설계한다
-
-#2
+#1
 이후 양식에 구애받지 않고 자유롭게 작성
+ - RecentView 컴포넌트 추가
+ - Landing 컴포넌트에 RecentView 컴포넌트 추가
 ...
 
 ```
 
   
 
-issue 메시지의 제목은 [[commitMessageConvention.md]](https://github.com/telework-freaks/ondolbang-v2-technote/blob/main/commitMessageConvention.md)에 기술한 것과 같이 `Add, Update, Refactor` 등의 작업 내용을 의미하는 키워드와 작업내용을 한 문장으로 요약하여 작성합니다. issue 메시지의 내용은 해당 작업의 디테일을 위 예시와 같이 간략히 설명합니다. pull request 메시지의 제목에는 해당 PR이 완료한 작업에 해당하는 issue의 번호를 먼저 쓰고, issue의 제목을 작성합니다. 내용에는 완료한 작업 내용을 간략히 설명합니다. pull request 메시지의 내용 부분에는 해당 작업에서 변경된 사항을 위 예시와 같이 `코드 측면`에서 기술합니다. 최종 merge 이전에 팀원이 해당 PR을 검토하고 이상없음이 확인되면 변경점을 저장소에 merge합니다.
+issue 메시지의 제목은 [[commitMessageConvention.md]](https://github.com/telework-freaks/ondolbang-v2-technote/blob/main/commitMessageConvention.md)에 기술한 것과 같이 `Add, Update, Refactor` 등의 작업 내용을 의미하는 키워드와 작업내용을 한 문장으로 요약하여 작성합니다. issue 메시지의 내용은 해당 작업의 디테일을 위 예시와 같이 간략히 설명합니다. pull request 메시지의 제목에는 해당 PR이 완료한 작업에 해당하는 issue의 번호를 먼저 쓰고, issue의 제목을 작성합니다. pull request 메시지의 내용 부분에도 제목과 같이 issue의 번호를 작성하고, 해당 작업에서 변경된 사항을 위 예시와 같이 `코드 측면`에서 자유롭게 기술합니다. 본문에는 최종 merge 이전에 팀원이 해당 PR을 검토하고 이상없음이 확인되면 변경점을 저장소에 merge합니다.
